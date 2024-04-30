@@ -12,8 +12,27 @@
    align-items: center;
  }
  
- button {
-   height: 10%;
-   width: 80%;
+ .box {
+   height: 300px;
+   width: 300px;
    border-radius: 10px;
- }
+   display: flex;
+   justify-content: center;
+   align-items: center;
+   position: relative;
+   overflow: hidden;
+}
+
+.box::before {
+   height: 300px;
+   width: 100pc;
+   background-image: linear-gradient(210deg, red, yellow);
+   position: absolute;
+   animation: rotate 3s linear infinite;
+}
+
+@keyframes rotate {
+   100% {
+     transfor: rotate(360deg);
+  }
+}
