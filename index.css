@@ -35,6 +35,6 @@
 
 @keyframes rotate {
    100% {
-     transfor: rotate(360deg);
+     transform: rotate(360deg);
   }
 }
