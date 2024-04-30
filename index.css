@@ -10,6 +10,7 @@
    display: flex;
    justify-content: center; 
    align-items: center;
+   background-color: #000;
  }
  
  .box {
@@ -21,6 +22,7 @@
    align-items: center;
    position: relative;
    overflow: hidden;
+   background: rgba(0,0,0,0.5);
 }
 
 .box::before {
